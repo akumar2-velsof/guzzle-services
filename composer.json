@@ -1,0 +1,37 @@
+{
+    "name": "knowband/guzzle-services",
+    "description": "",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Knowband",
+            "email": "support@knowband.com",
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/command": "0.7.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GuzzleHttp\\Command\\Guzzle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GuzzleHttp\\Tests\\Command\\Guzzle\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.4-dev"
+        }
+    },
+    "replace": {
+      "guzzlehttp/guzzle-services": "0.5.0"
+    }
+}
