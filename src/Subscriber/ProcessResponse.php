@@ -1,19 +1,19 @@
 <?php
-namespace GuzzleHttp\Command\Guzzle\Subscriber;
+namespace GuzzleHttp1\Command\Guzzle\Subscriber;
 
-use GuzzleHttp\Command\Guzzle\DescriptionInterface;
-use GuzzleHttp\Event\SubscriberInterface;
-use GuzzleHttp\Message\ResponseInterface;
-use GuzzleHttp\Command\Guzzle\Parameter;
-use GuzzleHttp\Command\CommandInterface;
-use GuzzleHttp\Command\Guzzle\ResponseLocation\JsonLocation;
-use GuzzleHttp\Command\Event\ProcessEvent;
-use GuzzleHttp\Command\Guzzle\ResponseLocation\ResponseLocationInterface;
-use GuzzleHttp\Command\Guzzle\ResponseLocation\BodyLocation;
-use GuzzleHttp\Command\Guzzle\ResponseLocation\StatusCodeLocation;
-use GuzzleHttp\Command\Guzzle\ResponseLocation\ReasonPhraseLocation;
-use GuzzleHttp\Command\Guzzle\ResponseLocation\HeaderLocation;
-use GuzzleHttp\Command\Guzzle\ResponseLocation\XmlLocation;
+use GuzzleHttp1\Command\Guzzle\DescriptionInterface;
+use GuzzleHttp1\Event\SubscriberInterface;
+use GuzzleHttp1\Message\ResponseInterface;
+use GuzzleHttp1\Command\Guzzle\Parameter;
+use GuzzleHttp1\Command\CommandInterface;
+use GuzzleHttp1\Command\Guzzle\ResponseLocation\JsonLocation;
+use GuzzleHttp1\Command\Event\ProcessEvent;
+use GuzzleHttp1\Command\Guzzle\ResponseLocation\ResponseLocationInterface;
+use GuzzleHttp1\Command\Guzzle\ResponseLocation\BodyLocation;
+use GuzzleHttp1\Command\Guzzle\ResponseLocation\StatusCodeLocation;
+use GuzzleHttp1\Command\Guzzle\ResponseLocation\ReasonPhraseLocation;
+use GuzzleHttp1\Command\Guzzle\ResponseLocation\HeaderLocation;
+use GuzzleHttp1\Command\Guzzle\ResponseLocation\XmlLocation;
 
 /**
  * Subscriber used to create response models based on an HTTP response and

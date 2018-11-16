@@ -1,5 +1,5 @@
 <?php
-namespace GuzzleHttp\Command\Guzzle;
+namespace GuzzleHttp1\Command\Guzzle;
 
 /**
  * JSON Schema formatter class

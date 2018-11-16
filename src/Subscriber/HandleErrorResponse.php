@@ -1,14 +1,14 @@
 <?php
-namespace GuzzleHttp\Command\Guzzle\Subscriber;
+namespace GuzzleHttp1\Command\Guzzle\Subscriber;
 
-use GuzzleHttp\Command\Event\ProcessEvent;
-use GuzzleHttp\Event\SubscriberInterface;
+use GuzzleHttp1\Command\Event\ProcessEvent;
+use GuzzleHttp1\Event\SubscriberInterface;
 
 /**
  * Subscriber that reads the "errorResponses" from commands, and trigger appropriate exceptions
  *
  * In order for the exception to be properly triggered, all your exceptions must be instance
- * of "GuzzleHttp\Command\Exception\CommandException". If that's not the case, your exceptions will be wrapped
+ * of "GuzzleHttp1\Command\Exception\CommandException". If that's not the case, your exceptions will be wrapped
  * around a CommandException
  */
 class HandleErrorResponse implements SubscriberInterface

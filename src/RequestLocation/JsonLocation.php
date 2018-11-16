@@ -1,11 +1,11 @@
 <?php
-namespace GuzzleHttp\Command\Guzzle\RequestLocation;
+namespace GuzzleHttp1\Command\Guzzle\RequestLocation;
 
-use GuzzleHttp\Command\Guzzle\Operation;
-use GuzzleHttp\Command\Guzzle\Parameter;
-use GuzzleHttp\Command\CommandInterface;
-use GuzzleHttp\Message\RequestInterface;
-use GuzzleHttp\Stream\Stream;
+use GuzzleHttp1\Command\Guzzle\Operation;
+use GuzzleHttp1\Command\Guzzle\Parameter;
+use GuzzleHttp1\Command\CommandInterface;
+use GuzzleHttp1\Message\RequestInterface;
+use GuzzleHttp1\Stream\Stream;
 
 /**
  * Creates a JSON document

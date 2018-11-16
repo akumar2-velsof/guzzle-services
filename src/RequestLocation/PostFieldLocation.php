@@ -1,11 +1,11 @@
 <?php
-namespace GuzzleHttp\Command\Guzzle\RequestLocation;
+namespace GuzzleHttp1\Command\Guzzle\RequestLocation;
 
-use GuzzleHttp\Command\Guzzle\Parameter;
-use GuzzleHttp\Message\RequestInterface;
-use GuzzleHttp\Post\PostBodyInterface;
-use GuzzleHttp\Command\CommandInterface;
-use GuzzleHttp\Command\Guzzle\Operation;
+use GuzzleHttp1\Command\Guzzle\Parameter;
+use GuzzleHttp1\Message\RequestInterface;
+use GuzzleHttp1\Post\PostBodyInterface;
+use GuzzleHttp1\Command\CommandInterface;
+use GuzzleHttp1\Command\Guzzle\Operation;
 
 /**
  * Adds POST fields to a request

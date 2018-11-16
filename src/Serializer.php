@@ -1,19 +1,19 @@
 <?php
-namespace GuzzleHttp\Command\Guzzle;
+namespace GuzzleHttp1\Command\Guzzle;
 
-use GuzzleHttp\Command\ServiceClientInterface;
-use GuzzleHttp\Command\CommandInterface;
-use GuzzleHttp\Command\CommandTransaction;
-use GuzzleHttp\Message\RequestInterface;
-use GuzzleHttp\Command\Guzzle\RequestLocation\BodyLocation;
-use GuzzleHttp\Command\Guzzle\RequestLocation\HeaderLocation;
-use GuzzleHttp\Command\Guzzle\RequestLocation\JsonLocation;
-use GuzzleHttp\Command\Guzzle\RequestLocation\PostFieldLocation;
-use GuzzleHttp\Command\Guzzle\RequestLocation\PostFileLocation;
-use GuzzleHttp\Command\Guzzle\RequestLocation\QueryLocation;
-use GuzzleHttp\Command\Guzzle\RequestLocation\XmlLocation;
-use GuzzleHttp\Command\Guzzle\RequestLocation\RequestLocationInterface;
-use GuzzleHttp\Utils;
+use GuzzleHttp1\Command\ServiceClientInterface;
+use GuzzleHttp1\Command\CommandInterface;
+use GuzzleHttp1\Command\CommandTransaction;
+use GuzzleHttp1\Message\RequestInterface;
+use GuzzleHttp1\Command\Guzzle\RequestLocation\BodyLocation;
+use GuzzleHttp1\Command\Guzzle\RequestLocation\HeaderLocation;
+use GuzzleHttp1\Command\Guzzle\RequestLocation\JsonLocation;
+use GuzzleHttp1\Command\Guzzle\RequestLocation\PostFieldLocation;
+use GuzzleHttp1\Command\Guzzle\RequestLocation\PostFileLocation;
+use GuzzleHttp1\Command\Guzzle\RequestLocation\QueryLocation;
+use GuzzleHttp1\Command\Guzzle\RequestLocation\XmlLocation;
+use GuzzleHttp1\Command\Guzzle\RequestLocation\RequestLocationInterface;
+use GuzzleHttp1\Utils;
 
 /**
  * Serializes requests for a given command.

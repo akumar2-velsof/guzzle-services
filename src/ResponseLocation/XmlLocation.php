@@ -1,9 +1,9 @@
 <?php
-namespace GuzzleHttp\Command\Guzzle\ResponseLocation;
+namespace GuzzleHttp1\Command\Guzzle\ResponseLocation;
 
-use GuzzleHttp\Command\Guzzle\Parameter;
-use GuzzleHttp\Message\ResponseInterface;
-use GuzzleHttp\Command\CommandInterface;
+use GuzzleHttp1\Command\Guzzle\Parameter;
+use GuzzleHttp1\Message\ResponseInterface;
+use GuzzleHttp1\Command\CommandInterface;
 
 /**
  * Extracts elements from an XML document

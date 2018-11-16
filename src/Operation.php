@@ -1,7 +1,7 @@
 <?php
-namespace GuzzleHttp\Command\Guzzle;
+namespace GuzzleHttp1\Command\Guzzle;
 
-use GuzzleHttp\ToArrayInterface;
+use GuzzleHttp1\ToArrayInterface;
 
 /**
  * Guzzle operation

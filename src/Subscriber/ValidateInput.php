@@ -1,11 +1,11 @@
 <?php
-namespace GuzzleHttp\Command\Guzzle\Subscriber;
+namespace GuzzleHttp1\Command\Guzzle\Subscriber;
 
-use GuzzleHttp\Command\Guzzle\DescriptionInterface;
-use GuzzleHttp\Event\SubscriberInterface;
-use GuzzleHttp\Command\Exception\CommandException;
-use GuzzleHttp\Command\Guzzle\SchemaValidator;
-use GuzzleHttp\Command\Event\InitEvent;
+use GuzzleHttp1\Command\Guzzle\DescriptionInterface;
+use GuzzleHttp1\Event\SubscriberInterface;
+use GuzzleHttp1\Command\Exception\CommandException;
+use GuzzleHttp1\Command\Guzzle\SchemaValidator;
+use GuzzleHttp1\Command\Event\InitEvent;
 
 /**
  * Subscriber used to validate command input against a service description.

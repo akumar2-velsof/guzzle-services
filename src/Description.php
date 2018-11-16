@@ -1,7 +1,7 @@
 <?php
-namespace GuzzleHttp\Command\Guzzle;
+namespace GuzzleHttp1\Command\Guzzle;
 
-use GuzzleHttp\Url;
+use GuzzleHttp1\Url;
 
 /**
  * Represents a Guzzle service description

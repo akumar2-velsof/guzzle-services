@@ -1,15 +1,15 @@
 <?php
-namespace GuzzleHttp\Command\Guzzle;
+namespace GuzzleHttp1\Command\Guzzle;
 
-use GuzzleHttp\ClientInterface;
-use GuzzleHttp\Command\AbstractClient;
-use GuzzleHttp\Command\Command;
-use GuzzleHttp\Command\CommandTransaction;
-use GuzzleHttp\Command\Guzzle\Subscriber\ProcessResponse;
-use GuzzleHttp\Command\Guzzle\Subscriber\ValidateInput;
-use GuzzleHttp\Event\HasEmitterTrait;
-use GuzzleHttp\Command\ServiceClientInterface;
-use GuzzleHttp\Ring\Future\FutureArray;
+use GuzzleHttp1\ClientInterface;
+use GuzzleHttp1\Command\AbstractClient;
+use GuzzleHttp1\Command\Command;
+use GuzzleHttp1\Command\CommandTransaction;
+use GuzzleHttp1\Command\Guzzle\Subscriber\ProcessResponse;
+use GuzzleHttp1\Command\Guzzle\Subscriber\ValidateInput;
+use GuzzleHttp1\Event\HasEmitterTrait;
+use GuzzleHttp1\Command\ServiceClientInterface;
+use GuzzleHttp1\Ring\Future\FutureArray;
 
 /**
  * Default Guzzle web service client implementation.
